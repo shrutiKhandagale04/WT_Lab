@@ -1,0 +1,50 @@
+header,footer {
+    background-color: #333; /* Set background color */
+    padding: 10px 0; /* Add some padding for spacing */
+}
+
+nav {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center-align navigation links */
+}
+
+nav a {
+    text-decoration: none; /* Remove default underline */
+    color: white; /* Set text color */
+    margin: 0 10px; /* Add margin between links */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+footer {
+    background-color: #333; /* Set background color */
+    color: white; /* Set text color */
+    text-align: center; /* Center-align text */
+    padding: 10px 0; /* Add padding */
+    clear: both; /* Ensure footer clears floated elements */
+    width: 100%; /* Ensure the footer spans the entire width */
+    position: fixed; /* Position the footer at the bottom of the viewport */
+    bottom: 0; /* Stick the footer to the bottom */
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+div{
+    background: darksalmon;
+    width: 700px;
+    margin-bottom: 100px;
+}
+
+.centered {
+    background: darksalmon; /* Set background color for the div */
+    width: 700px; /* Set width for the div */
+    margin: 0 auto; /* Center the div horizontally */
+    padding: 20px; /* Add padding */
+}

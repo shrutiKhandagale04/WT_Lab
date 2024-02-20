@@ -1,0 +1,3 @@
+Implement a webpage index.html for any client website using following.
+a. Html syntax: heading tags, basic tags and attributes, frames, tables, images links for text and images, forms etc.
+b. use internal CSS, inline css, external css.
